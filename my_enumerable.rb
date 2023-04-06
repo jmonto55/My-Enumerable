@@ -1,18 +1,17 @@
 module MyEnumerable
-
-def all? 
-    each {|n| return false unless yield n}
+  def all?
+    each { |n| return false unless yield n }
     true
-end
+  end
 
-def any?
-    each {|n| return true if yield n}
+  def any?
+    each { |n| return true if yield n }
     false
-end
+  end
 
-def filter?
+  def filter?
     array = []
-    each {|n| array.push(n) if yield n}
+    each { |n| array.push(n) if yield n }
     array
-    end
+  end
 end
