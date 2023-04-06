@@ -9,7 +9,7 @@ module MyEnumerable
     false
   end
 
-  def filter?
+  def filter
     array = []
     each { |n| array.push(n) if yield n }
     array
