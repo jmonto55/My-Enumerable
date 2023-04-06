@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-   <h1><b>Decode Morse Message</b></h1>
+   <h1><b>My Enumerable</b></h1>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -30,9 +30,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Decode Morse Message <a name="about-project"></a>
+# 📖 My Enumerable <a name="about-project"></a>
 
-**Decode Morse Message** is a small Ruby script that can translate code morse messages.
+**My Enumerable** is a Ruby script that implements a subset of the functionality of Enumerable methods.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -95,14 +95,14 @@ To get a local copy up and running follow these simple example steps.
 Clone this repository in the desired folder:
 ```
 cd my-folder
-git clone https://github.com/ashmalzahra/Ruby_decode-message.git
+git clone https://github.com/ashmalzahra/My-Enumerable.git
 ```
 
 ### Install
 
 To install this project:
 ```
-cd Ruby_decode-message
+cd My-Enumerable
 code .
 bundler install
 ```
